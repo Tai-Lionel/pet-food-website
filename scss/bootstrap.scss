@@ -1,0 +1,75 @@
+// Font
+// $font-family-sans-serif: 'Farro, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif';
+$font-family-sans-serif: 'Farro';
+
+// Color
+$primary: #ffc600;
+$danger: #ef3636;
+$light: #fff;
+$success: #a3dd84;
+// $dark: #e6e6e0;
+// $secondary: #d74f77;
+// $warning: #db6c1c;
+// $light: #ededed;
+// $success: #157f64;
+// $info: #fff;
+
+// Spacing
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4,
+    7: $spacer * 6,
+    8: $spacer * 8,
+    9: $spacer * 12,
+    10: $spacer * 15,
+);
+
+// body
+// $body-bg: black;
+$body-color: white;
+
+// button
+$button-padding-y: 12px;
+$button-padding-x: 30px;
+$button-border-radius: 30px;
+
+$btn-padding-y: $button-padding-y;
+$btn-padding-x: $button-padding-x;
+
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-x-sm: $button-padding-x;
+
+$btn-padding-y-lg: $button-padding-y;
+$btn-padding-x-lg: $button-padding-x;
+
+$btn-border-radius: $button-border-radius;
+$btn-border-radius-sm: $button-border-radius;
+$btn-border-radius-lg: $button-border-radius;
+
+$btn-font-size: 12px;
+
+// navbar
+$navbar-toggler-border-radius: 5px;
+$navbar-nav-link-padding-x: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-active-color: $primary;
+$navbar-padding-y: $spacer;
+$navbar-padding-x: 1rem;
+
+// carousel
+$carousel-indicator-active-bg: #000;
+$carousel-indicator-width: 5px;
+$carousel-indicator-height: 5px;
+$carousel-indicator-spacer: 8px;
+
+// input
+$input-placeholder-color: rgba(0, 0, 0, 0.5);
+$input-plaintext-color: rgb(0, 0, 0);
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

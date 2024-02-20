@@ -1,0 +1,156 @@
+.sm-text {
+    font-size: 6px;
+}
+
+.md-text {
+    font-size: 12px;
+}
+
+.lg-text {
+    font-size: 14px;
+}
+
+.xl-text {
+    font-size: 16px;
+}
+
+.navbar-scroll-effect {
+    background-color: rgba(26, 26, 26, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: all 200ms ease-in-out;
+}
+
+.header-img-1 {
+    transform: rotate(15deg);
+}
+
+.header-img-2 {
+    transform: rotate(-7deg) translateY(-50px);
+}
+
+.header-img-3 {
+    top: -50px;
+    left: -60px;
+}
+
+.details-1-bg-1 {
+    top: 200px;
+    right: 0;
+}
+
+.details-1-bg-2 {
+    bottom: 100px;
+    left: 0;
+}
+
+.statistic-img-1 {
+    left: 20px;
+    bottom: 0;
+}
+
+.statistic-img-2 {
+    right: 50px;
+    top: 0;
+}
+
+.process-img-1 {
+    top: 50px;
+    left: 100px;
+}
+
+.process-img-2 {
+    bottom: 0;
+    right: 0;
+}
+
+.philosiphy-img-1 {
+    top: 50px;
+    right: 250px;
+}
+
+.philosiphy-img-2 {
+    right: 0;
+    width: 150px;
+}
+
+.arrow-decor {
+    bottom: 20px;
+    right: -250px;
+}
+
+.quote-img {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 46%;
+}
+
+.subscribe-img {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+
+.header {
+    background: url('/images/header-bg-curly.png'), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/peakpx.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.details-1 {
+    --clr-background: #ededed;
+    background: url('/images/8.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}
+
+.details-2 {
+    --clr-background: #e6e6e0;
+    background: url('/images/8.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}
+
+.statistics {
+    --clr-background: #157f64;
+    background: url('/images/5.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}
+
+.process {
+    --clr-background: #ededed;
+    background: url('/images/8.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}
+
+.philosophy {
+    --clr-background: #ededed;
+    background: url('/images/8.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}
+
+.ytb-video-body {
+    background: url('/images/header-bg-curly.png'), url('/images/ytb-play-bg.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.experts {
+    --clr-background: #e6e6e0;
+    background: url('/images/8.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}
+
+.subscribe-body {
+    --clr-background: #157f64;
+    background: url('/images/5.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}
+
+.blog-post {
+    --clr-background: #ededed;
+    background: url('/images/8.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}
+
+.footer {
+    --clr-background: #4f4137;
+    background: url('/images/header-bg-curly.png'), linear-gradient(var(--clr-background), var(--clr-background));
+    background-size: cover;
+}

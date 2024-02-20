@@ -1,0 +1,17 @@
+install bootstrap
+install fontawesome
+install sass
+
+create sass folder: bootstrap.scss, fontawesome.scss, styles.scss
+create js folder: bootstrap.min.js, script.js
+create webfonts folder
+
+create .gitignore file
+
+write script to compile sass files
+
+include css and js files to my index.html
+
+---------------------------------------------------------------------
+
+configure bootstrap
