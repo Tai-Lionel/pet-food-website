@@ -33,51 +33,72 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-lg-6 mb-2 mb-lg-0 fw-bold">
+                <ul class="navbar-nav navbar-nav-1 ms-lg-6 mb-lg-0 fw-bold">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <div class="d-flex align-items-center gap-1">
-                                <div>SHOP</div>
-                                <!-- <i class="fas fa-plus text-primary" style="font-size: 0.625rem;"></i> -->
-                            </div>
-                        </a>
-                        <!-- <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul> -->
+                        <a class="nav-link active nav-link-hover" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link nav-link-hover" href="#">SHOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
+                        <a class="nav-link nav-link-hover" href="#">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PAGES</a>
+                        <a class="nav-link nav-link-hover" href="#">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link nav-link-hover" href="#">PAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-hover" href="#">CONTACT</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold d-flex gap-4">
+                <ul class="navbar-nav navbar-nav-2 ms-auto mb-2 mb-lg-0 fw-bold d-flex">
                     <li class="nav-item">
                         <a class="nav-link p-0" href="#">
                             <span class="me-2"><i class="fa-solid fa-location-dot text-primary"></i></span>
                             Store Locator
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-0" href="#">
+                    <li class="nav-item dropdown dropstart">
+                        <a class="nav-link p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                            href="#">
                             <span class="me-2"><i class="fa-solid fa-user text-primary"></i></span>
                             Sign In
                         </a>
+                        <div class="dropdown-menu p-0">
+                            <div class="sign-in border border-primary px-4 pt-5 pb-3 bg-light text-black"
+                                style="min-width: 350px;">
+                                <div class="d-flex justify-content-between">
+                                    <h3>Sign in</h3>
+                                    <a href="#" class="text-primary">Create an Account</a>
+                                </div>
+                                <form class="mb-3">
+                                    <div class="mb-3">
+                                        <label for="username" class="form-label">Username or email <span
+                                                class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" id="username" placeholder="Username">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password <span
+                                                class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" id="password" placeholder="Password">
+                                    </div>
+                                    <div class="d-grid">
+                                        <button class="btn btn-primary fw-bold text-uppercase">
+                                            Login
+                                            <span class="fa-stack sm-text ms-1" style="margin-bottom: 1px;">
+                                                <i class="fas fa-circle fa-stack-2x text-black"></i>
+                                                <i class="fas fa-play fa-stack-1x text-primary"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </form>
+                                <div class="text-end">
+                                    <p class="text-primary">Lost your password?</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-0" href="#">
