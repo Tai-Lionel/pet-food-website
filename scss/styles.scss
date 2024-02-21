@@ -166,7 +166,7 @@
     background-size: cover;
 }
 
-// animation
+// navbar
 
 /* Define keyframes for the animation */
 @keyframes border-grow {
@@ -228,10 +228,47 @@
     max-width: 80%;
 }
 
+.btn:hover .fa-stack {
+    transform: scale(1.5);
+    /* Adjust the scale factor as needed */
+    transition: transform 0.2s ease;
+    /* Add transition for smooth animation */
+}
+
+
 @media (max-width: 992px) {
     .navbar-brand {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .header-heading {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .header {
+        min-height: 100dvh;
+    }
+
+    .header-img-3 {
+        top: -50px;
+        left: -40px;
+    }
+
+    .statistic-img-1 {
+        max-width: 200px;
+        left: 10px;
+    }
+
+    .statistic-img-2 {
+        max-width: 200px;
+        right: 10px;
+    }
+
+    .ytb-video .modal-body {
+        height: 200px !important;
+    }
+
 }

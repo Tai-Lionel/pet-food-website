@@ -118,6 +118,10 @@
                             data-bs-target="#shoppingCartOffcanvas">
                             <span class="me-2"><i class="fa-solid fa-cart-shopping text-primary"></i></span>
                             Cart
+                            <span class="fa-stack ms-1" style="font-size: 10px;">
+                                <i class="fas fa-circle text-primary fa-stack-2x"></i>
+                                <p class="fa-stack-1x text-black">0</p>
+                            </span>
                         </a>
                     </li>
                 </ul>
@@ -238,15 +242,21 @@
                 </div>
                 <div class="offset-lg-1 col-lg-7">
                     <div class="d-flex flex-column justify-content-center h-100 gap-4">
-                        <h1 class="fw-bold display-2 mx-5 mx-lg-0 position-relative">
+                        <h1 class="header-heading fw-bold display-2 mx-5 mx-lg-0 position-relative">
                             <img class="position-absolute header-img-3" src="images/header-3.png" alt="">
                             Slow-Cooked Pet Food for Optimal Nutrition & Taste
                         </h1>
-                        <p class="fs-4 text-center text-lg-start">Get your pet more of the good stuff at your local pet
+                        <p class="fs-4 text-center text-lg-start">Get your pet more of the good stuff at your local
+                            pet
                             store!</p>
-                        <div class="text-center text-lg-start"><button
-                                class="btn btn-primary text-uppercase fw-bold">Browse
-                                Products</button></div>
+                        <div class="text-center text-lg-start"><button class="btn btn-primary text-uppercase fw-bold">
+                                Browse
+                                Products
+                                <span class="fa-stack sm-text ms-1" style="margin-bottom: 1px;">
+                                    <i class="fas fa-circle fa-stack-2x text-black"></i>
+                                    <i class="fas fa-play fa-stack-1x text-primary"></i>
+                                </span>
+                            </button></div>
                     </div>
                 </div>
             </div>
@@ -255,7 +265,7 @@
 
     <section class="details-1 py-8 bg-light text-black position-relative">
         <img class="position-absolute details-1-bg-1" src="images/details-1-bg-1.png" alt="">
-        <img class="position-absolute details-1-bg-2" src="images/details-1-bg-2.png" alt="">
+        <img class="position-absolute details-1-bg-2 d-none d-md-block" src="images/details-1-bg-2.png" alt="">
         <div class="container position-relative z-3">
             <div class="row mb-5">
                 <div class="offset-md-3 col-md-6">
@@ -298,7 +308,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 px-7">
+                <div class="d-none d-md-block col-md-6 px-7">
                     <img src="images/food.png" alt="" style="width: 100%">
                 </div>
                 <div class="col-md-3">
@@ -401,7 +411,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="offset-md-1 col-md-6">
+                            <div class="offset-md-1 col-md-6 mt-5 mt-md-0">
                                 <p class="fw-bold">If you have any questions or need help, call us any time</p>
                                 <p class="text-danger fw-bold mb-4">(844)-1800333556</p>
                                 <button class="btn btn-light text-uppercase fw-bold">
@@ -420,7 +430,7 @@
     </section>
 
     <section class="statistics pt-7 pb-6 position-relative">
-        <img class="position-absolute statistic-img-1 d-none d-md-block" src="images/statistic-img-1.png" alt="">
+        <img class="position-absolute statistic-img-1" src="images/statistic-img-1.png" alt="">
         <img class="position-absolute statistic-img-2" src="images/statistic-img-2.png" alt="">
         <div class="container position-relative z-3">
             <div class="row">
@@ -468,7 +478,7 @@
         </div>
     </section>
 
-    <section class="process text-black">
+    <section class="process text-black pt-5 pt-md-0">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 position-relative">
@@ -503,17 +513,17 @@
                     </div>
                 </div>
                 <div class="col-md-6 border p-0 border-0">
-                    <img src="images/process-img-1.jpg" alt="" style="width: 100%">
+                    <img src="images/process-img-1.jpg d-none d-md-block" alt="" style="width: 100%">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="philosophy text-black">
+    <section class="philosophy text-black py-5 py-md-0">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 p-0 border-0">
-                    <img src="images/meat.jpg" alt="" style="width: 100%">
+                    <img src="images/meat.jpg d-none d-md-block" alt="" style="width: 100%">
                 </div>
                 <div class="col-md-6 position-relative">
                     <img class="position-absolute philosiphy-img-1" src="images/header-3.png" alt="">
@@ -669,7 +679,7 @@
     <section class="ytb-video">
         <div class="container-fluid">
             <div class="row">
-                <div class="ytb-video-body pt-9 pb-8 bg-black">
+                <div class="ytb-video-body pt-5 pb-2 pt-md-9 pb-md-8 bg-black">
                     <div class="play-button-container d-flex justify-content-center">
                         <a data-bs-toggle="modal" data-bs-target="#ytb-video">
                             <span class="fa-stack fa-4x">
@@ -703,7 +713,7 @@
         </div>
     </section>
 
-    <section class="experts py-7 text-black">
+    <section class="experts py-5 py-md-7 text-black text-center text-md-end">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 position-relative">
@@ -729,7 +739,7 @@
                     <img class="d-none d-md-block position-absolute arrow-decor" src="images/arrow-decor.png" alt=""
                         style="width: 200px;">
                 </div>
-                <div class="offset-md-3 col-md-2">
+                <div class="offset-md-3 col-md-2 mt-4 mt-md-0">
                     <div class="text-center">
                         <div class="img-container mb-4">
                             <img src="images/expert-1.png" alt="" class="img-fluid">
@@ -740,7 +750,7 @@
                         <p class="fw-semibold text-black-50">Head of nutrition</p>
                     </div>
                 </div>
-                <div class="offset-md-1 col-md-2">
+                <div class="offset-md-1 col-md-2 mt-4 mt-md-0">
                     <div class="text-center">
                         <div class="img-container mb-4">
                             <img src="images/expert-2.png" alt="" class="img-fluid">
@@ -851,7 +861,7 @@
     </section>
 
     <section class="subscribe">
-        <div class="container bg-success py-7 rounded-5 position-relative subscribe-body">
+        <div class="container bg-success py-7 rounded-0 rounded-md-4 position-relative subscribe-body">
             <img class="position-absolute subscribe-img" src="images/subscribe-img.png" alt="">
             <div class="row">
                 <div class="offset-md-3 col-md-6">
@@ -917,7 +927,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mt-5 mt-md-0">
                     <div class="card text-black rounded-4 shadow-lg">
                         <img class="rounded-top-4" src="images/blog-img-2.png" alt="" class="card-img-top">
                         <div class="card-body">
@@ -952,9 +962,10 @@
         </div>
     </section>
 
-    <footer class="footer pt-7 pb-6 lg-text">
+    <footer class="footer pt-7 pb-6 lg-text text-center text-md-start">
         <div class="container">
-            <div class="d-flex flex-wrap justify-content-between align-items-center mb-5">
+            <div
+                class="d-flex flex-wrap flex-column flex-md-row gap-5 gap-md-0 justify-content-between align-items-center mb-5">
                 <img src="images/logo.svg" alt="" style="width: 100px;">
                 <div class="location d-flex gap-2">
                     <span><i class="fa-regular fa-location-dot text-primary"></i></span>
@@ -996,8 +1007,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-9">
-                    <div class="row">
+                <div class="col-md-9 mt-5 mt-md-0">
+                    <div class="row gap-5 gap-md-0">
                         <div class="offset-md-2 col-md-2">
                             <div class="mb-4">
                                 <p class="fw-bold text-uppercase xl-text">Our Products</p>
@@ -1037,10 +1048,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 d-flex">
+                <div class="col-12 d-flex flex-column flex-md-row">
                     <p class="text-muted">Copyright &copy; 2021 <span class="text-white">Gopet</span>. All rights
                         reserved</p>
-                    <div class="ms-auto">
+                    <div class="ms-md-auto">
                         <a href="#" class="text-decoration-none">
                             <span class="fa-stack">
                                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
