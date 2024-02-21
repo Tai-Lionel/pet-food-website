@@ -250,6 +250,9 @@
 
     .header {
         min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .header-img-3 {
